@@ -26,7 +26,7 @@ RUN curl -L -o test_5h.mp3 \
 
 
 # Install Python packages
-RUN pip3 install --no-cache-dir runpod==1.7.11
+RUN pip3 install --no-cache-dir runpod~=1.7.11
 RUN pip3 install --no-cache-dir /app/pyannote_ai-0.7.0-cp310-abi3-manylinux_2_28_x86_64.whl
 
 # Run the ONNX runtime installation script
